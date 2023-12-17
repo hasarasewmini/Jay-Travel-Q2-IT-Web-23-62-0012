@@ -1,0 +1,31 @@
+﻿@page
+@model WebApplication4.Pages.Students.IndexModel
+@{
+    ViewData["Title"] = "Students page";
+}
+
+
+<br>
+<h2>List of Students</h2>
+<a class="btn btn-primary btm-sm" href="/Students/Create">New Student</a>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Student ID</th>
+            <th>Name</th>
+            <th>City</th>
+            <th>Course ID</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.liststudents)
+        {
+            <tr>
+                <td>@item.studentid </td>
+                <td>@item.name</td>
+                <td>@item.city</td>
+                <td>@item.courseid</td>
+            </tr>
+        }
+    </tbody>
+</table>

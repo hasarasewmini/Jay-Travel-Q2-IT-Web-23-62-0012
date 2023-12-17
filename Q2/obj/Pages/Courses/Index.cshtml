@@ -1,0 +1,27 @@
+﻿@page
+@model WebApplication4.Pages.Courses.CourseModel
+@{
+    ViewData["Title"] = "List of courses";
+}
+
+ <br>
+ <h2>@ViewData["Title"]</h2>
+ <table class="table">
+     <thead>
+         <tr>
+             <th>Course Id</th>
+             <th>Name</th>
+             <th>Lecture Name</th>
+         </tr>
+     </thead>
+     <tbody>
+         @foreach (var course in Model.listCourses)
+        {
+            <tr>
+                <td>@course.courseid</td>
+                <td>@course.name</td>
+                <td>@course.lecturename</td>
+            </tr>
+        }
+    </tbody>
+ </table>

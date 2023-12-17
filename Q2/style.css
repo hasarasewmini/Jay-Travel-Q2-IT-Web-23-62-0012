@@ -1,0 +1,50 @@
+.navbar-brand {
+    color: blue;
+    font-weight: bold;
+}
+.btn {
+    color: blue;
+    border-color: blue;
+}
+h1{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 9rem;
+}
+h6 {
+    color: #adb5bd;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    
+}
+.form-floating>.form-control:not(:placeholder-shown) {
+    padding-top: 1.625rem;
+    padding-bottom: 1.625rem;
+}
+.form-control {
+    font-weight: 200;
+    color: #dee2e6;
+}
+.card-3{
+    background-color: blue;
+    margin-top: 3rem;
+    
+}
+.card-2{
+    background-color: aqua;
+    margin-top: 6rem;
+}
+.card-1{
+    background-color: rgb(231, 231, 126);
+    margin-top: 4rem;
+}
+.g-3{
+    --bs-gutter-y: 5rem;
+    --bs-gutter-x: 5rem;
+}
+.card-3-title{
+    color: white;
+}
+.card-3-text{
+    color: white;
+}
